@@ -26,7 +26,7 @@ const Feature = () => {
           </button>
         </div>
 
-        <div className="bg-orange-950 rounded-3xl md:flex justify-between items-center hidden ">
+        <div className="bg-orange-950 rounded-3xl md:flex justify-center items-center hidden ">
           <div className="flex flex-col gap-3 ml-16 mt-8 mb-8">
             <p className="text-2xl font-bold text-white">4.9</p>
             <hr className="w-10 h-1 bg-white" />
@@ -38,7 +38,7 @@ const Feature = () => {
 
             <p className="text-xl font-thin text-white">Lorem ipsum dolor</p>
           </div>
-          <div className="flex flex-col gap-3 ml-16 mt-8 mb-8 mr-16">
+          <div className="flex flex-col gap-3 ml-16 mt-8 mb-8 mr-12">
             <p className="text-2xl font-bold text-white">No.1</p>
             <hr className="w-10 h-1 bg-white" />
 

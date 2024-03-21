@@ -32,7 +32,7 @@ const Masonry = () => {
         <img
           src="/Frame4.png"
           alt="image"
-          className="w-[257px] h-[252px] pt-4"
+          className="w-[257px] h-[252px] pt-7"
         />
       </div>
       <div className="md:col-span-2 flex flex-col justify-center items-center">
