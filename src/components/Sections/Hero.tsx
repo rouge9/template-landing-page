@@ -5,7 +5,7 @@ const DesktopHero = () => {
   return (
     <Fragment>
       {/* desktop */}
-      <div className="lg:grid lg:grid-cols-3 hidden">
+      <div className="lg:grid lg:grid-cols-3 hidden" id="home">
         <div className="md:grid md:grid-row-3">
           <div className="flex flex-col">
             <h1 className="text-xl font-bold text-gray-400">01</h1>

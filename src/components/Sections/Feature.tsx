@@ -1,6 +1,6 @@
-const Desc = () => {
+const Feature = () => {
   return (
-    <div className="grid md:grid-cols-2 md:items-center pt-10">
+    <div className="grid md:grid-cols-2 md:items-center pt-10" id="feature">
       <div className="flex flex-col gap-5 lg:pt-64">
         <div className="md:flex md:flex-col gap-5 md:text-balance">
           <p className="lg:text-6xl text-2xl font-extrabold text-orange-950">
@@ -54,4 +54,4 @@ const Desc = () => {
   );
 };
 
-export default Desc;
+export default Feature;

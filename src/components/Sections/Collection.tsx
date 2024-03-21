@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const Collection = () => {
   return (
-    <div className="flex flex-col pt-24">
+    <div className="flex flex-col pt-24" id="collection">
       <div className="flex justify-between gap-5">
         <img
           src="/shapeandfontcircle.png"
