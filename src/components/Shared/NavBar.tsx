@@ -69,7 +69,7 @@ function FloatingNavBar() {
         >
           <div className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:ps-7">
             <a
-              className={`font-medium text-gray-500 hover:text-gray-400 md:py-6 ${
+              className={`font-medium text-gray-500 hover:text-gray-400 md:py-6 text-lg ${
                 tag === "#home" && path === "/" && "text-red-900"
               }`}
               onClick={() => {
@@ -84,7 +84,7 @@ function FloatingNavBar() {
               Home
             </a>
             <a
-              className={`font-medium text-gray-500 hover:text-gray-400 md:py-6 ${
+              className={`font-medium text-gray-500 hover:text-gray-400 md:py-6 text-lg ${
                 tag === "#feature" && "text-red-900"
               }`}
               onClick={() => {
@@ -99,7 +99,7 @@ function FloatingNavBar() {
               Features
             </a>
             <a
-              className={`font-medium text-gray-500 hover:text-gray-400 md:py-6 ${
+              className={`font-medium text-gray-500 hover:text-gray-400 md:py-6 text-lg ${
                 tag === "#collection" && "text-red-900"
               }`}
               onClick={() => {
