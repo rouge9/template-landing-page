@@ -8,7 +8,7 @@ import Footer from "./components/Shared/Footer";
 function App() {
   return (
     <Fragment>
-      <main className="p-14 w-full min-h-screen relative overflow-hidden">
+      <main className=" p-14 relative overflow-hidden flex flex-col justify-center items-center">
         <NavBar />
         <Hero />
         <Feature />
