@@ -8,7 +8,7 @@ function FloatingNavBar() {
   return (
     <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm">
       <nav
-        className="mt-6 relative max-w-[85rem] w-full bg-white border backdrop-blur-sm bg-white/90 border-gray-200 rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto "
+        className="mt-6  max-w-[85rem] w-full bg-white border backdrop-blur-sm bg-white/90 border-gray-200 rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto "
         aria-label="Global"
       >
         <div className="flex items-center justify-between">
